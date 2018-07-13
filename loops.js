@@ -23,11 +23,8 @@ function maybeTrue() {
 }
 
 function doWhileLoop(arr){
-  console.log("array is: "+arr)
   do {
-    console.log("inside the do: ")
     arr.shift()
-    console.log("array is now: "+arr)
-  } while (arr.length > 0 && maybeTrue());
+    } while (arr.length > 0 && maybeTrue());
   return arr
 }
